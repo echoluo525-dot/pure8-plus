@@ -1,0 +1,15 @@
+{
+  "$schema": "https://developers.cloudflare.com/pages/platform/schemas-project-config",
+  "build": {
+    "command": "npm run build",
+    "destination": "out"
+  },
+  "env": {
+    "production": {
+      "NODE_ENV": "production"
+    },
+    "preview": {
+      "NODE_ENV": "development"
+    }
+  }
+}
